@@ -1,0 +1,7 @@
+Flask
+tensorflow
+tensorflow-text
+numpy
+scikit-learn
+keras
+pathlib
