@@ -30,7 +30,7 @@ import csv
 from flask import Flask, request, jsonify
 
 from threading import Semaphore
-translation= Blueprint('translation', __name__)
+translation_blueprint= Blueprint('translation', __name__)
 
 
 semaphore = Semaphore(1)
