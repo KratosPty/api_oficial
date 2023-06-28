@@ -291,7 +291,7 @@ for _ in range(30):
     
 
 
-@translation_engabe_blueprint.route('/translatengabe', methods=['POST'])
+@translation_ngabe_blueprint.route('/translatengabe', methods=['POST'])
 def translate_engabe():
     input_sentence = request.json['sentence']
     translated = None
